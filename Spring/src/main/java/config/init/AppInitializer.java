@@ -1,10 +1,13 @@
 package config.init;
 
 import config.WebConfig;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-/*INICIO DE TUDO. Aqui será direcionado as Mappings para suas devidas controllers e aq sera chamada a classe de
-* Configuração de Servlet.  Resumindo: Aq será passada a mapping e a classe de configuração da servlet*/
+                                    /*INICIO DE TUDO.
+
+        Aqui será direcionado as Mappings para suas devidas controllers e aq sera chamada a classe de
+      * Configuração de Servlet.  Resumindo: Aq será passada a mapping e a classe de configuração da servlet*/
 
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
@@ -22,4 +25,7 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
     protected String[] getServletMappings() {
         return new String[] {"/"};
     }
+
+
+
 }

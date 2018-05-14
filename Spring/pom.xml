@@ -23,6 +23,9 @@
 
 	     <!-- Thymeleaf-->
 	 	 <thymeleaf-version>3.0.9.RELEASE</thymeleaf-version>
+
+	 	<!-- Hibernate Validator-->
+	 	<hibernate-validator.version>6.0.7.Final</hibernate-validator.version>
 	 <!--*****************************************************-->
 </properties>
 
@@ -90,7 +93,13 @@
 	</dependency>
 
 
-	
+	<!-- Bean Validation / Hibernate Validator (FAZER VALIDAÇÕES)-->
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-validator</artifactId>
+		<version>${hibernate-validator.version}</version>
+		<scope>compile</scope>
+	</dependency>
 
 </dependencies>
 
