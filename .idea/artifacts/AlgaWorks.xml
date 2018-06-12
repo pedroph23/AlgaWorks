@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="AlgaWorks">
-    <output-path>$PROJECT_DIR$/out/artifacts/AlgaWorks</output-path>
-    <root id="archive" name="AlgaWorks.jar" />
-  </artifact>
-</component>
